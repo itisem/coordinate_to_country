@@ -1,13 +1,12 @@
 {
   "name": "coordinate_to_country",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Returns and ISO 3166-1 country code for any given latitude or longitude.",
   "main": "index.js",
   "author": "Emily Nagy",
   "license": "MIT",
   "dependencies": {
-    "@osm_borders/maritime_10m": "^1.0.1",
-    "@osm_borders/maritime_2m": "^1.0.1",
+    "@osm_borders/maritime_10m": "^1.1.0",
     "geojson-geometries-lookup": "^0.5.0"
   },
   "scripts": {
@@ -15,5 +14,16 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "keywords": [
+    "map",
+    "coordinates",
+    "country",
+    "country code",
+    "iso 3166-1",
+    "openstreetmap",
+    "latitude",
+    "longitude",
+    "geocoding"
+  ]
 }

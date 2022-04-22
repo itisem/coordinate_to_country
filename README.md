@@ -5,8 +5,7 @@ This is a fork of [country-iso](https://github.com/simonepri/country-iso) with s
  * Enclaves and exclaves are now handled properly: the dataset used by `country-iso` doesn't handle polygons with holes in them, resulting in weird outputs such as the entirety of Lesotho being shown as a part of South Africa.
  * ISO 3166 alpha-2 codes are now also optionally supported.
  
-Both of these are accomplished thanks to a new dataset I generated, [@osm_borders/maritime_2m](https://www.npmjs.com/package/@osm_borders/maritime_2m). Just like its predecessor, it originates from high-quality OpenStreetMap data, but with fixes for the aforementioned issues. For more details, see the [osm_borders](https://github.com/itisem/osm_borders) Github page.
-
+Both of these are accomplished thanks to a new dataset I generated, [@osm_borders/maritime_10m](https://www.npmjs.com/package/@osm_borders/maritime_10m). Just like its predecessor, it originates from high-quality OpenStreetMap data, but with fixes for the aforementioned issues. For more details, see the [osm_borders](https://github.com/itisem/osm_borders) Github page.
 
 
 # Installation and usage
